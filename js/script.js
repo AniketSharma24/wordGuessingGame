@@ -60,9 +60,7 @@ keyboard.forEach((letter, index) => {
 function gussedWord(e) {
     let letter = null
     e.type == 'click' ? letter = e.target.innerHTML.toLowerCase() : letter = e.key
-    console.log(deathCount)
-    console.log(wordToGuess)
-    if (deathCount > 1) {
+    if (deathCount >= 1) {
         if (wordToGuess.includes(letter)) {
             performSound("./assets/music/correct.mp3")
             populateGuessedWord(`#letter${wordToGuess.indexOf(letter) + 1}`, letter)
