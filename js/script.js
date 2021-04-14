@@ -64,13 +64,13 @@ function gussedWord(e) {
     console.log(wordToGuess)
     if (deathCount > 1) {
         if (wordToGuess.includes(letter)) {
-            performSound("./Assets/music/correct.mp3")
+            performSound("./assets/music/correct.mp3")
             populateGuessedWord(`#letter${wordToGuess.indexOf(letter) + 1}`, letter)
             if (wordToGuess.every((letter) => letter == "0")) {
                 setGameOverBoard("none", "flex", "rgba(65, 117, 5, 0.45)", "You Won!!", "Hurray! You guessed correct:")
             }
         } else {
-            performSound("./Assets/music/wrong.mp3")
+            performSound("./assets/music/wrong.mp3")
             deathCount--;
             updateDeathCount(deathCount)
         }
