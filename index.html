@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Guess The Word</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="flex-class">
+    <div class="game-container">
+        <div class="flex-class header">
+            <img class="icon" src="./Assets/images/icon.png" alt="icon">
+            <div>Guess till Death!</div>
+        </div>
+        <div class="flex-class chances-left-primary">
+            <div class="counter-left">Chances left:</div>
+            <div class="flex-class chances-left-secondary">
+                <div class="square flex-class square3"></div>
+                <div class="square flex-class square2"></div>
+                <div class="square flex-class square1"></div>
+                <div class="square flex-class square0"></div>
+                <div class="square flex-class square1"></div>
+                <div class="square flex-class square2"></div>
+                <div class="square flex-class square3"></div>
+            </div>
+        </div>
+        <div class="wordContainer"></div>
+        <div class="keyboard"></div>
+    </div>
+    <div class="game-over">
+        <div class="game-over-header"></div>
+        <div class="correct-word-container">
+            <h5 class="title"></h5>
+            <p class="correct-word"></p>
+        </div>
+        <button class="reset">Reset Board!</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
