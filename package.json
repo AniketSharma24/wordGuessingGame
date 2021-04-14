@@ -1,0 +1,15 @@
+{
+  "name": "guess-till-death",
+  "version": "1.0.0",
+  "description": "This is javascript based game where user need to guess to letter to complete the word given. User will only get 4 chances to guess the correct letter.",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Aniket Sharma",
+  "license": "ISC",
+  "homepage": "https://AniketSharma24.github.io/wordGuessingGame",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
