@@ -1,6 +1,7 @@
 # Word Guessing Game
 A fun game to boost your memory.
 
+![](/GuessTillDeathBrandImage.png?raw=true)
 
 Built with:
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
